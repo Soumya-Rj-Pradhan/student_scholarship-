@@ -1,0 +1,37 @@
+#spring:
+#  datasource:
+#    driver-class-name: oracle.jdbc.driver.OracleDriver
+#    password: test
+#    url: jdbc:oracle:thin:@192.168.1.249:1521/orcl
+#    username: test
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        format_sql: true
+#    show-sql: true
+#    database-platform: org.hibernate.dialect.Oracle12cDialect
+
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/scholarship
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+        format_sql: true
+    show-sql: true
+#    database-platform: org.hibernate.dialect.Oracle12cDialect
+server:
+  port : 9092
+
+      
