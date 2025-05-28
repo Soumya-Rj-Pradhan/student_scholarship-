@@ -1,4 +1,4 @@
-# student_scholarship-
+# student_scholarship-portal
 Project: Student Scholarship Management System
 Tech Stack: Angular, Spring Boot, MySQL, REST APIs
 
